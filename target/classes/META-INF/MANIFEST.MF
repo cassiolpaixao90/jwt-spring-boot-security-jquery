@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: jwt-spring-security
+Implementation-Version: 0.2.0
+Built-By: CassioPaixao
+Implementation-Vendor-Id: br.com.cassiopaixao
+Build-Jdk: 1.8.0_45
+Implementation-URL: http://projects.spring.io/spring-boot/jwt-spring-s
+ ecurity/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

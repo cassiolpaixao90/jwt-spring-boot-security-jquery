@@ -1,0 +1,22 @@
+server:
+  contextPath: null
+spring:
+  jackson:
+    serialization:
+      INDENT_OUTPUT: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://localhost/myDatabase
+    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+jwt:
+  header: Authorization
+  secret: mySecret
+  expiration: 604800
+  route:
+    authentication:
+      path: auth
+      refresh: refresh
